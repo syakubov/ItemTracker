@@ -9,7 +9,11 @@ string username;
 
 int main()
 try {
-	
+	ofstream save;
+	ifstream load;
+	cout << "Hello! Do you have any saved data? (yes or no)\n";
+	string choose = "";
+	//FIXME: need to add load function here.
 	cout << "Hello! What is your name?" << endl << prompt;
 	getline(cin, username);
 
@@ -22,9 +26,11 @@ try {
 	cout << "If you would like to change an item's location, type 'c'" << endl;
 	cout << "If you would like to view all your items, type 'v'" << endl;
 	cout << "If you would like to view the menu options again, type 'm'" << endl;
-	cout << "If you would like some information about the program and author, type 'i'" << endl;
+	cout << "If you would like some information about the program and author, type"
+				<< " 'i'" << endl;
 	cout << "To quit, type 'q'" << endl;
-	cout << "* Note: All inputs are case sensitive, and all input after first character will be ignored. *" << endl;
+	cout << "* Note: All inputs are case sensitive, and no special charaters are "
+				<< "allowed. *" << endl;
 
 	while(ItemTracker(items))
 	{}
