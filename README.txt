@@ -8,7 +8,6 @@ Program Description: Prompt a user for their name, or at least their save name. 
 	iii)if delete, remove the item from the token vector	
 	iv)if view location, prompt the user for an item name, then display location, and return to main menu.
 
-As of 1/29/2017, the save/load functionality has not been implemented.
 
 UPDATE:
 Changes as of 2/13/2017:
