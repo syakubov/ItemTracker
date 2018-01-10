@@ -17,10 +17,4 @@ Changes as of 2/13/2017:
 	updated class 
 	created save/load variables
 	restructured program to be more compliant with C++ standards (width, comments, etc)	
-TO BE DONE:
-	Implement save/load using ofstream and istream
-	Write contents of vector to file with username, read contents from file into vector (load),
-	check to make sure save file with username actually exists
-	list saved files in directory
-		
-		
+
